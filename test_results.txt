@@ -1,0 +1,29 @@
+PS C:\Users\merna\Downloads\AgileDay1> pytest 
+================================================ test session starts ================================================
+platform win32 -- Python 3.9.0, pytest-8.4.2, pluggy-1.6.0
+rootdir: C:\Users\merna\Downloads\AgileDay1
+plugins: anyio-4.0.0
+collected 0 items                                                                                                    
+
+=============================================== no tests ran in 0.11s ===============================================
+PS C:\Users\merna\Downloads\AgileDay1> pytest test_sum_of_digits.py -v
+================================================ test session starts ================================================
+platform win32 -- Python 3.9.0, pytest-8.4.2, pluggy-1.6.0 -- C:\Users\merna\AppData\Local\Programs\Python\Python39\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\merna\Downloads\AgileDay1
+plugins: anyio-4.0.0
+collected 10 items                                                                                                   
+
+test_sum_of_digits.py::test_simple PASSED                                                                      [ 10%] 
+test_sum_of_digits.py::test_multiple_digits PASSED                                                             [ 20%] 
+test_sum_of_digits.py::test_no_digits PASSED                                                                   [ 30%] 
+test_sum_of_digits.py::test_digits_at_edges PASSED                                                             [ 40%] 
+test_sum_of_digits.py::test_empty_string PASSED                                                                [ 50%] 
+test_sum_of_digits.py::test_consecutive_digits PASSED                                                          [ 60%] 
+test_sum_of_digits.py::test_digits_with_spaces PASSED                                                          [ 70%] 
+test_sum_of_digits.py::test_leading_zeros PASSED                                                               [ 80%] 
+test_sum_of_digits.py::test_single_digit PASSED                                                                [ 90%] 
+test_sum_of_digits.py::test_mixed_characters PASSED                                                            [100%] 
+
+================================================ 10 passed in 0.14s ================================================= 
+
